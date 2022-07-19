@@ -1,4 +1,7 @@
 .main {
+  margin: 0;
+  padding: 0;
+
   background-color: black;
 
   height: 100vh;
@@ -49,7 +52,7 @@
   font-size: 50px;
 }
 .main-first.transfer {
-  transform: translateY(-100%);
+  transform: translateY(-120%);
 
   z-index: 0;
 }
@@ -240,10 +243,11 @@
 .main-fourth {
   position: absolute;
   top: 0;
-  left: 0;
+  width: 1300px;
+  left: 50%;
+  transform: translateX(-50%);
 
   height: 100%;
-  width: 100%;
 
   display: flex;
   align-items: center;
